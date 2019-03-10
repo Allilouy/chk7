@@ -1,0 +1,148 @@
+body{
+  background-size: cover;
+  max-width: 100%;
+}
+.navbar-inverse { margin : 0 !important; }
+
+h2, h3{text-align: center}
+
+.bg{height: 250px;
+  background-image: url(maik-jonietz-535261-unsplash.jpg);
+  background-size: 100%;
+  width: 100%}
+
+  .circletag {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: #E6E7ED;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    background-image: url("kity.jpg");
+    background-size: cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;    
+  }
+
+  .title{font-size: 30px;
+  color: #44c5ff}
+
+  .glyphicons, #title{margin-left: 5%}
+  #pg1{padding-left: 6%} 
+  .glyph{display: inline-block;
+ padding-left: 20px;
+padding-right: 70px}
+
+.glyphicon, .fas{
+  font-size: 100px
+}
+.contain{margin-left: 5%;
+}
+.rdm{padding: 2px;
+cursor: pointer}
+
+  p, ul{font-size: 20px}
+
+  .circletag{position: absolute;
+top:30%;
+left:43%}
+
+
+
+.container{
+text-align: center
+}
+
+.fab{font-size: 30px}
+
+.fab:hover{
+  color:#44c5ff;
+  }
+
+  i{font-size: 90px}
+  .pg{font-size: 20px;}
+  
+  .fas:hover{ 
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition:  0.5s ease-out;
+    transition:  0.5s ease-out;
+    transform: rotate(360deg);
+    color: #44c5ff;
+  }
+
+  .glyphicon:hover{ 
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition:  0.5s ease-out;
+    transition:  0.5s ease-out;
+    transform: rotate(360deg);
+    color: #44c5ff;
+  }
+
+
+  .pg{ 
+     -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity:0;  
+}
+
+#ed:hover ~ #pg {
+  display: block;
+color: #44c5ff;
+transform: translate(15px, 0px);
+opacity: 1
+}
+
+
+#astro:hover ~ #astro1 {
+  display: block;
+color: #44c5ff;
+transform: translate(15px, 0px);
+opacity: 1
+} 
+
+#ac:hover ~ #ac1 {
+  display: block;
+color: #44c5ff;
+transform: translate(15px, 0px);
+opacity: 1
+}
+
+#cl:hover ~ #cl1 {
+  display: block;
+color: #44c5ff;
+transform: translate(15px, 0px);
+opacity: 1
+}
+
+#ppl:hover ~ #ppl1 {
+  display: block;
+color: #44c5ff;
+transform: translate(15px, 0px);
+opacity: 1
+}
+
+
+#mv:hover ~ #mv1 {
+  display: block;
+color: #44c5ff;
+transform: translate(15px, 0px);
+opacity: 1
+}
+
+#cl1{padding-left: 20px}
+#ppl1, #astro1, #ac1{margin-left: -20px}
+
+
+.fas, .glyphicon {cursor: pointer;}
+
+  .fas:not( :hover){ 
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition:  0.5s ease-out;
+    transition:  0.5s ease-out;
+  }
+
+
+  h2:hover{
+    text-decoration: underline;}
